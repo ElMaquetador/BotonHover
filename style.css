@@ -1,0 +1,20 @@
+
+.contenedor {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+.custom-buttom {
+  padding: 10px 20px;
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.custom-buttom:hover {
+  background-color: #ff4500;
+  transform: scale(1.1);
+}
